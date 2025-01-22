@@ -32,7 +32,7 @@ class ScaffoldWithNavBar extends StatelessWidget {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
-            label: 'Home',
+            label: 'Profile',
           )
         ],
         currentIndex: _calculateSelectedIndex(context),
